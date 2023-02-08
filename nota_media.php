@@ -20,7 +20,7 @@ $mediaE = array_sum($notasE)/count($notasE);
 //y los examenes un 50, es decir la nota será sobre 9
 $media_modulo = ($mediaP*0.4)+($mediaE*0.5);
 
-
+//Muestro los resultados
 echo "Nota media de prácticas = ".$mediaP."<br>";
 echo "Nota media de exámenes = ".$mediaE."<br>";
 echo "Nota media del módulo = ".$media_modulo;
